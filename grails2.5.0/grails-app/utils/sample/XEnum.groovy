@@ -1,5 +1,7 @@
 package sample
-
+/**
+ * http://grails.1312388.n4.nabble.com/Question-about-the-use-of-enum-types-in-Grails-td3220149.html
+ */
 enum XEnum {
 	X__ONE (000, "x.one"),
 	X__TWO (100, "x.two"),

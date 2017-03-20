@@ -11,13 +11,9 @@ class Foo {
     String chileanRutNumber
     String personalNumber
     String organizationNumber
-    //XEnum mySuperValue
+    XEnum mySuperValue
 
     static mapping = {
         version false
-    }
-
-    static constraints = {
-        //mySuperValue nullable:true
     }
 }
