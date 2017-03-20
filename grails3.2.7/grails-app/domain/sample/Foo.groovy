@@ -15,5 +15,6 @@ class Foo {
 
     static mapping = {
         version false
+        mySuperValue enumType:"identity"
     }
 }
