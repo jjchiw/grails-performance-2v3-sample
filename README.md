@@ -1,7 +1,8 @@
-# grails-performance
+# grails-tests ~~performance~~
 
-https://github.com/grails/grails-core/issues/640
-https://github.com/grails/grails-core/issues/10463
+* ~~https://github.com/grails/grails-core/issues/640~~ fixed workaround
+* ~~https://github.com/grails/grails-core/issues/10463~~
+* https://github.com/grails/grails-data-mapping/issues/889
 
 The name of the `apps` are not `g2` or `g3`, I generated the war and then I copy them to `apache-tomcat-8.5.11` and rename them
 running with `java version "1.8.0_112"`
@@ -20,6 +21,7 @@ CREATE TABLE `Foo` (
   `chilean_rut_number` varchar(15) default NULL,
   `personal_number` varchar(13) default NULL,
   `organization_number` varchar(11) default NULL,
+  `my_super_value` varchar(255) default NULL,
   PRIMARY KEY (`id`)
 ) AUTO_INCREMENT=1;
 ```
